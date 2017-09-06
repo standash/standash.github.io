@@ -1,204 +1,160 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
-	<title>Personal website of Stanislav Dashevskyi</title>
-	<style>
-		ul {
-		  margin: 1em 0;
-		  padding: 0 0 0 40px;
-		}
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-		li {
-		  margin: 1em 0;
-		}
+     <title>Personal website of Stanislav Dashevskyi</title>
 
-		table {
-			width: 80%;
-		}
-	</style>
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: 60px -200px 30px 30px; width: 300px; height: 300px;}
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: blue; text-decoration: none; }
+        a:hover { border-bottom-style: solid; color: black; }
+        #bio { width: 1000px; float: left; }
+        #bio p { font-family: Georgia, Serif; font-style: italic; color: black; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+		ol { margin: 1em 0; padding: 0 0 0 40px; }
+		li { margin: 1em 0; }
+     </style>
 </head>
+
 <body>
+    <div id="page-wrap">
+        <img src="images/photo.jpg" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+            <h1 class="fn">Stanislav Dashevskyi</h1>
+			<h2>
+				PhD in Computer Science, Research Fellow at the <a	href="https://securitylab.disi.unitn.it/doku.php"> Security Research Group </a>
+				of the <a href="http://www.unitn.it/"> University of Trento </a>
+			</h2>
+			<br><br>
+            <p>
+                Email (work) : <a class="email">stanislav.dashevskyi[at]unitn.it</a><br>
+                Email (personal) : <a class="email">stdashevsky[at]gmail.com</a>
+            </p>
+			<p>
+				University of Trento (Povo 2, room 127) <br>
+				Via Sommarive 9, I-38123, Povo <br>
+				Trento, Italy
+			</p>
+        </div>
+		<br><br>
 
-<!-- photo and main stuff --> 
-<table>
-<tr>
-	<td valign="top"> 
-		<img src="images/photo.png" height="200px" width="200px">
-	</td>
-	<td> 
-		&nbsp; &nbsp; 
-	</td>
-	<td>
-		<b>
-		<h2> Stanislav Dashevskyi</h2>
-		PhD in Computer Science, Research Fellow at the 	
-			<a href="https://securitylab.disi.unitn.it/doku.php"> Security Resarch Group </a> of the
-			<a href="http://www.unitn.it/"> University of Trento </a>
-		</b>
-	</td>
-</tr>
-</table>
-<br>
+		<!-- bio --> 
+        <div id="bio">
+            <p>
+				I received my Master's degree in Automation and Control Systems from the
+				National Mining University of Ukraine (Dnipro), and my Ph.D. from the
+				International Doctorate School in Information and Communication Technologies
+				(ICT) at the University of Trento (Italy) under the supervision of Prof.  <a
+				href="http://disi.unitn.it/~massacci/">Fabio Massacci</a> I am currently working
+				as a research fellow at the Security Research Group at the University of Trento.
+				Before starting my Ph.D. studies, I worked as a software quality assurance
+				engineer at <a href="http://www.sitecore.net/">Sitecore</a> (Ukrainian office).
+				My main research interests include software security, vulnerability analysis,
+				and security certification of Free and Open Source Software.
+            </p>
+        </div>
 
-<!-- -->
+        <div class="clear"></div>
 
-<table>
+        <dl>
+			<!-- publications --> 
+            <dd class="clear"></dd>
+            <dt>Publications</dt>
+            <dd>
+			<ol>
+				<li>
+					<b>S. Dashevskyi</b>, D. R. Dos Santos, F. Massacci, and A. Sabetta.  "TestREx:
+					a Testbed for Repeatable Exploits". In Proceedings of the 7th USENIX Workshop on
+					Cyber Security Experimentation and Test (USENIX CSET), 2014.
+				</li>
+				<li>
+					V.H. Nguyen,<b>S. Dashevskyi</b>, and F. Massacci. "An Automatic Method for
+					Assessing the Versions Affected by a Vulnerability". Empirical Software
+					Engineering (ESE), 2015.
+				</li>
+				<li>
+					<b>S. Dashevskyi</b>, A. D. Brucker, and F. Massacci. "On the Security Cost of
+					Using a Free and Open Source Component in a Proprietary Product". In Proceedings
+					of the Engineering Secure Software and Systems Conference (ESSoS), 2016
+				</li>
+				<li>
+					I. Pashchenko, <b>S. Dashevskyi</b>, and F. Massacci. "DeltaBench: Differential
+					Benchmark for Static Analysis Security Testing Tools". In Proceedings of the
+					International Symposium on Empirical Software Engineering and Measurement
+					(ESEM), 2017 <b>(to appear)</b>.
+				</li>
+				<li>
+					<b>S. Dashevskyi</b>, D. R. dos Santos, F. Massacci, and A. Sabetta.  "TestREx:
+					a Framework for Repeatable Exploits". International Journal of Software Tools
+					for Technology Transfer (STTT), 2017 <b>(to appear)</b>.
+				</li>
+			</ol> 
+            </dd>
 
-<!-- short bio -->
-<tr> 
-<td width="10%">
-<b><u>Short bio:</u></b>
-</td>
-</tr>
+			<!-- book chapters --> 
+            <dd class="clear"></dd>
+            <dt>Book chapters</dt>
+            <dd>
+			<ol>
+				<li>
+					L. ben Othmane, A. D. Brucker, <b>S. Dashevskyi</b>, and P.  Tsalovski,
+					"Empirical research for software security: foundations and experience".  In, L.
+					ben Othmane, M.G. Jaatun, and E. Weippl, Eds. Taylor &amp; Francis Group, LLC,
+					2017, ch. "An introduction to data analytics for software security" <b>(to
+					appear)</b>.
+				</li>
+			</ol> 
+            </dd>
 
-<tr>
-<td></td>
-<td>
-	I received my Master's degree in Automation and Control Systems from the
-	National Mining University of Ukraine (Dnipro), and my Ph.D. from the
-	International Doctorate School in Information and Communication Technologies
-	(ICT) at the University of Trento (Italy) under the supervision of Prof.  <a
-	href="http://disi.unitn.it/~massacci/">Fabio Massacci</a> I am currently working
-	as a research fellow at the Security Research Group at the University of Trento.
-	Before starting my Ph.D. studies, I worked as a software quality assurance
-	engineer at <a href="http://www.sitecore.net/">Sitecore</a> (Ukrainian office).
-	My main research interests include software security, vulnerability analysis,
-	and security certification of Free and Open Source Software.
-</td>
-</tr>
+			<!-- patents --> 
+            <dd class="clear"></dd>
+            <dt>Patents </dt>
+            <dd>
+			<ol>
+				<li>
+					A. Sabetta, L. Compagna, S. Ponta, <b>S. Dashevskyi</b>, D.R. Dos Santos, and F.
+					Massacci. "Multi-Context Exploit Test Management".  US Patent App.
+				</li>
+				<li>
+					A. D. Brucker, <b>S. Dashevskyi</b>. "Vulnerability Analysis of Software
+					Components", US Patent App. 14/965,449, 2015.
+				</li>
+			</ol> 
+            </dd>
 
-<!-- contacts -->
-
-<!-- short bio -->
-<tr> 
-<td width="10%">
-<b><u>Contacts:</u></b>
-</td>
-</tr>
-
-<tr>
-<td></td>
-<td>
-	<u>email:</u> <b>stdashevsky[at]gmail.com,
-				stanislav.dashevskyi[at]unitn.it</b> 
-	<br>
-	University of Trento (Povo 2, room 127) <br>
-	Via Sommarive 9, I-38123, Povo <br>
-	Trento, Italy
-</td>
-</tr>
-
-<!--publications --> 
-<tr> 
-<td width="10%">
-<b><u>Publications:</u></b>
-</td>
-</tr>
-
-<tr>
-<td></td>
-<td>
-	<ol>
-		<li>
-			<b>S. Dashevskyi</b>, D. R. Dos Santos, F. Massacci, and A. Sabetta.  "TestREx:
-			a Testbed for Repeatable Exploits". In Proceedings of the 7th USENIX Workshop on
-			Cyber Security Experimentation and Test (USENIX CSET), 2014.
-		</li>
-		<li>
-			V.H. Nguyen,<b>S. Dashevskyi</b>, and F. Massacci. "An Automatic Method for
-			Assessing the Versions Affected by a Vulnerability". Empirical Software
-			Engineering (ESE), 2015.
-		</li>
-		<li>
-			<b>S. Dashevskyi</b>, A. D. Brucker, and F. Massacci. "On the Security Cost of
-			Using a Free and Open Source Component in a Proprietary Product". In Proceedings
-			of the Engineering Secure Software and Systems Conference (ESSoS), 2016.
-		</li>
-		<li>
-			I. Pashchenko, <b>S. Dashevskyi</b>, and F. Massacci. "DeltaBench: Differential
-			Benchmark for Static Analysis Security Testing Tools". In Proceedings of the
-			International Symposium on Empirical Software Engineering and Measurement
-			(ESEM), 2017 <b>(to appear)</b>.
-		</li>
-		<li>
-			<b>S. Dashevskyi</b>, D. R. dos Santos, F. Massacci, and A. Sabetta.  "TestREx:
-			a Framework for Repeatable Exploits". International Journal of Software Tools
-			for Technology Transfer (STTT), 2017 <b>(to appear)</b>.
-		</li>
-	</ol>
-</td>
-</tr>
-
-<!--book chapters--> 
-<tr> 
-<td width="10%">
-<b><u>Book chapters:</u></b>
-</td>
-</tr>
-
-<tr>
-<td></td>
-<td>
-	<ol>
-		<li>
-			L. ben Othmane, A. D. Brucker, <b>S. Dashevskyi</b>, and P.  Tsalovski,
-			"Empirical research for software security: foundations and experience".  In, L.
-			ben Othmane, M.G. Jaatun, and E. Weippl, Eds. Taylor &amp; Francis Group, LLC,
-			2017, ch. "An introduction to data analytics for software security" <b>(to
-			appear)</b>.
-		</li>
-	</ol>
-</td>
-</tr>
-
-<!--patents--> 
-<tr> 
-<td width="10%">
-<b><u>Patents:</u></b>
-</td>
-</tr>
-
-<tr>
-<td></td>
-<td>
-	<ol>
-		<li>
-			A. Sabetta, L. Compagna, S. Ponta, <b>S. Dashevskyi</b>, D.R. Dos Santos, and F.
-			Massacci. "Multi-Context Exploit Test Management".  US Patent App.
-		</li>
-		<li>
-			A. D. Brucker, <b>S. Dashevskyi</b>. "Vulnerability Analysis of Software
-			Components", US Patent App. 14/965,449, 2015.
-		</li>
-	</ol>
-</td>
-</tr>
-
-<!--talks--> 
-<tr> 
-<td width="10%">
-<b><u>Talks:</u></b>
-</td>
-</tr>
-
-<tr>
-<td></td>
-<td>
-	<ol>
-		<li>
-			A. D. Brucker, <b>S. Dashevskyi</b>, and F. Massacci, "Using Third-party
-			Components for Building an Application Might be More Dangerous than You Think!".
-			OWASP AppSec Europe, 2016. 
-			(<a href="https://www.brucker.ch/bibliography/download/2016/talk-brucker.ea-owasp-third-party-security-2016-2x2.pdf">slides</a>)
-			(<a href="https://youtu.be/zUDaP0m-gFU">recording</a>)
-		</li>
-	</ol>
-</td>
-</tr>
-
-</td>
-</tr>
-
-</table>
+			<!-- talks --> 
+            <dd class="clear"></dd>
+            <dt>Talks </dt>
+            <dd>
+			<ol>
+				<li>
+					A. D. Brucker, <b>S. Dashevskyi</b>, and F. Massacci, "Using Third-party
+					Components for Building an Application Might be More Dangerous than You Think!".
+					OWASP AppSec Europe, 2016. 
+					(<a href="https://www.brucker.ch/bibliography/download/2016/talk-brucker.ea-owasp-third-party-security-2016-2x2.pdf">slides</a>)
+					(<a href="https://youtu.be/zUDaP0m-gFU">recording</a>)
+				</li>
+			</ol> 
+            </dd>
+		<!-- --> 
+		</dl>
+        <div class="clear"></div>
+	</div>
 </body>
 </html>
 
